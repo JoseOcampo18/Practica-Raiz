@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raíces</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+	</div>
+	<div class="form-container sign-in-container">
+		<form  id="formulario"  action="#">
+            <h1>Ingresa los valores</h1> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+            <div class="form-container value-container">
+                <br>  
+                <h3>Ingresa el valor de X1</h3>  
+                <input type="text" id="x1" placeholder="X1" /> 
+                <h3>Ingresa el limite de Ea</h3> 
+                <input type="text" id="ea" placeholder="Ea" />
+                <br>  
+                <button id="btnResolve">Resolver</button>
+             </div>
+		</form>
+        
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+				<h1 id = "xvalue"></h1>
+				<h1 id="result"></h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="main.js" type="module"></script>
+</body>
+
+</html>
